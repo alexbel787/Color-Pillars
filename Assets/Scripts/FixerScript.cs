@@ -23,7 +23,6 @@ public class FixerScript : MonoBehaviour
         startPos = transform.position;
         SetFlagsColors();
         if (!isActive) DisableFixer();
-        else print(canFixColor.ToString());
     }
 
     private void OnCollisionEnter(Collision collision)

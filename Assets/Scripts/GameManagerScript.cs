@@ -68,8 +68,6 @@ public class GameManagerScript : MonoBehaviour
         foreach (FixerScript fs in FSs) fs.SetFlagsColors();
     }
 
-
-
     public IEnumerator ChangeColorCoroutine()
     {
         disableInput = true;
